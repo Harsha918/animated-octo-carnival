@@ -1,0 +1,119 @@
+.flex-parent{
+  display: flex;
+  justify-content:  center;
+}
+.PROFILE{
+  font-family: Comic Sans MS;
+  height:100%;
+  width:30%;
+  margin:2%;
+  padding: 1%;
+  border-radius: 10px;
+  border: 2px solid #00FF00;
+background-color: #fbefcc;
+box-shadow: 3px 3px 3px #000;
+}
+.CONTENT{
+  font-family: Comic Sans MS;
+  width: 70%;
+  margin: 2%;
+  padding: 1%;
+  border-radius: 10px;
+  border:2px solid #00FF00;
+  background-color:#fbefcc;
+box-shadow: 3px 3px 3px #000;
+}
+table{
+   width:95%;
+}
+td{
+  padding:1%;
+}
+tr:nth-child(odd){
+   background:#fff;
+}
+body
+{
+  background:#000000;
+}
+.image{
+  width: 250px;
+  height: 200px;
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+  border-radius: 80%;
+    border: 2px solid #000;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+  .flex-parent{
+    display: flex;
+flex-direction:column;
+    justify-content:  center;
+  }
+  .PROFILE{
+    width:100%;
+    margin:2%;
+    padding: 1%;
+    border: 2px solid #000;
+box-shadow: 3px 3px 3px #000;
+  }
+  .CONTENT{
+    width: 100%;
+    margin: 2%;
+    padding: 1%;
+    border:2px solid #000;
+    box-shadow: 3px 3px 3px #000;
+  }
+
+}
+@media only screen and (min-width:481px)  and  (max-width:768px){
+  .flex-parent{
+    display: flex;
+flex-direction:column;
+    justify-content:  center;
+  }
+  .PROFILE{
+    width:100%;
+    margin:2%;
+    padding: 1%;
+    border: 2px solid #000;
+box-shadow: 3px 3px 3px #000;
+  }
+  .CONTENT{
+    width: 100%;
+    margin: 2%;
+    padding: 1%;
+    border:2px solid #000;
+  box-shadow: 3px 3px 3px #000;
+  }
+  body
+  {
+    background:#ddd;
+  }
+}
+@media only screen and (min-width:769px)  and  (max-width:1024px){
+  .flex-parent{
+    display: flex;
+flex-direction:column;
+    justify-content:  center;
+  }
+  .PROFILE{
+    width:100%;
+    margin:2%;
+    padding: 1%;
+    border: 2px solid #000;
+box-shadow: 3px 3px 3px #000;
+  }
+  .CONTENT{
+    width: 100%;
+    margin: 2%;
+    padding: 1%;
+    border:2px solid #000;
+box-shadow: 3px 3px 3px #000;
+  }
+  body
+  {
+    background:#ddd;
+  }
+}

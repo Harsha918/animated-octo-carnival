@@ -1,0 +1,42 @@
+{
+  "career":{
+    "info":"Everyone should learn how to code,it teaches you  how to think."
+  },
+  "education":[
+  {
+    "Degree":"S.S.C",
+    "School":"Keshava Reddy Talent school",
+    "data":["2013","80%"]
+  },
+  {
+    "Degree":"Inter/Diploma",
+    "School":"Narayana Junior College",
+    "data":["2013-2015","70"]
+  },
+  {
+    "Degree":"B.Tech(C.S.E)",
+    "School":"G.PULLIAH COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "data":["2015-2019","60%"]
+  }
+],
+"Skills":[
+  {
+    "Name":"Languages      :",
+    "info":["c++","c#","JAVA"]
+  },
+  {
+    "Name":"OperatingSystems     :",
+    "info":["Fedora","Unix","Windows XP","IOS"]
+  },
+  {
+    "Name":"Database      :",
+    "info":["Oracle","MySQL","PDO"]
+  },
+  {
+    "Name":"Web Technologies      :",
+    "info":["HTML","CSS","Ajax","PHP"]
+  }
+
+
+]
+}
